@@ -71,9 +71,23 @@ p, a {
 
 .nav-items .listed-nav_item a {
     display: inline;
-    padding: 15px;
+    padding: 5px;
     color: #008175;
     font-weight: 300;
+}
+
+.dropdown {
+    position: absolute;
+    right: 70px;
+    top: 80px;
+    list-style-type: none;
+    display: none;
+    font-size: small;
+ 
+}
+
+li#about:hover .dropdown {
+  display: block;
 }
 
 .hero {
