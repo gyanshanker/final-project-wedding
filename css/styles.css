@@ -1,0 +1,156 @@
+/* FONTS */
+/* @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+/* UNIVERSALS */
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, a {
+    font-family: 'Pacifico', cursive;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+/* HEADER SECTION */
+.nav-container {
+    border-bottom: 3px solid #00aea1; /*teal*/
+    font-weight: 400;
+ /*   height: 600px;
+    background-image: url("../images/VikaasLora.jpg");
+    background-size: cover;
+    background-position: center; */
+}
+
+.nav-container h1 {
+    margin-top: 0;
+}
+
+.logo {
+    color: #008171;
+    padding: 0px;
+    margin: 0;
+}
+
+.logo-image-size {
+    height: 70px;
+    width: 70px;
+}
+
+.nav-items {
+    margin: 0;
+    text-align: right;
+}
+
+.nav-items .listed-nav_item {
+    display: inline;
+}
+
+.nav-items .listed-nav_item a {
+    display: inline;
+    padding: 15px;
+    color: #008175;
+    font-weight: 300;
+}
+
+.hero {
+    height: 425px;
+    background-image: url("../images/VikaasLora.jpg");
+    background-size: cover;
+    background-position: center; 
+    padding-top: 20%;
+}
+
+.hero h1 {
+    margin-top: 0;
+    color: red;
+}
+/* BODY */
+
+.info-categories {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.info {
+    color: black;
+}
+
+.cat-pic-block {
+    height: 200px;
+    width: 300px;
+}
+
+
+/* Common items for all categories */
+.cat-container {
+    /*height: 500px; */
+    /* text-align: center; */
+}
+
+.column {
+    /*height:350px;*/
+    width: 48%;
+    float: left;
+    text-align: justify;
+    /*position: relative;*/
+    padding: 0px 3px;
+    margin: 5px;
+}
+
+.image-block {
+    height: 200px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.image-block:hover   {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    height: 80px;
+    background-color: #333; /* charcol gray */
+    color: #fff;
+    clear: both;
+    font-size: 10px;
+}
+
+.social-media a{
+    color: #fff;
+}
+
+.social-media a:hover {
+    color: #aff300;
+}
+
+.social-media i {
+    margin: 10px 12px;
+}
