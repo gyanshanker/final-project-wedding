@@ -1,6 +1,4 @@
 /* FONTS */
-/* @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');*/
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');*/
 @import url('https://fonts.googleapis.com/css?family=Amiri|Roboto');
 
 /* UNIVERSALS */
@@ -13,12 +11,10 @@ a {
 }
 
 h1, h2, h4 {
-    /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Amiri', serif;
 }
 
 p, a {
-    /*font-family: 'Pacifico', cursive;*/
     font-family: 'Roboto', sans-serif;
 }
 
@@ -46,10 +42,6 @@ p, a {
 .nav-container {
     border-bottom: 3px solid #00aea1; /*teal*/
     font-weight: 400;
- /*   height: 600px;
-    background-image: url("../images/VikaasLora.jpg");
-    background-size: cover;
-    background-position: center; */
 }
 
 .nav-container h1 {
@@ -60,11 +52,6 @@ p, a {
     color: #008175;
     padding: 10px;
     margin-top: 10px;
-}
-
-.logo-image-size {
-    height: 70px;
-    width: 70px;
 }
 
 .nav-items {
@@ -92,7 +79,6 @@ p, a {
     font-size: medium;
     background-color: #fff;
     line-height:150%;
- 
 }
 
 li#about:hover .dropdown {
@@ -108,23 +94,15 @@ li#about:hover .dropdown {
     padding-top: 20%;
 }
 
+/* End Header declarations */
+
 .hero h1 {
     margin-top: 0;
     color: red;
 }
 /* BODY */
-
-.info-categories {
-    display: inline-block;
-    list-style-type: none;
-    font-size: medium;
-    font-weight: 300;
-    color: rgb(255,0,0);
-}
-
-.info {
-    
-}
+/* Common items for all categories */
+/* Buttons */
 
 .button-container {
     display: inline;
@@ -151,10 +129,9 @@ div.button {
     margin-left: 30%;
 }
 
-/* Common items for all categories */
+/* Containers */
+
 .cat-container {
-    /*height: 500px; */
-    /* text-align: center; */
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -162,20 +139,6 @@ div.button {
 .cat-pic-block {
     height: 200px;
     width: 300px;
-}
-.column {
-    /*height:350px;*/
-    width: 48%;
-    float: left;
-    text-align: justify;
-    /*position: relative;*/
-    padding: 0px 3px;
-    margin: 5px;
-}
-
-.column p {
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .image-block {
