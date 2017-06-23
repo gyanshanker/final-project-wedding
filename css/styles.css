@@ -132,8 +132,8 @@ div.button {
 /* Containers */
 
 .cat-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .cat-pic-block {
@@ -161,6 +161,7 @@ footer {
     color: #fff;
     clear: both;
     font-size: 10px;
+    margin-top: 10px;
 }
 
 .social-media a{
